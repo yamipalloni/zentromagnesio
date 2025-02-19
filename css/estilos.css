@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #1a4c7e;
+  font-family: "Rubik", sans-serif;
+  font-size: 19px;
+}
+.navbar a {
+  color: black !important;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+.nav-link:hover {
+  color: #FFFFFF !important;
+}
+
+.carousel-caption h1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}
+
+.carousel-caption p {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+.sec1 {
+  background-color: #1a4c7e;
+  padding: 20px;
+}
+.sec1 h2 {
+  font-family: "Rubik", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.sec1 p {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.card-index {
+  background-color: #1a4c7e;
+  border: #1a4c7e;
+}
+
+.sec2 {
+  background-color: #FFFFFF;
+  background: linear-gradient(360deg, #d1d5d8 0%, #FFFFFF 100%);
+}
+.sec2 h2 {
+  padding-top: 20px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.sec2 h3 {
+  padding-bottom: 10px;
+  font-family: "Rubik", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.sec2 h4 {
+  font-family: "Rubik", sans-serif;
+  color: black;
+}
+
+.sec2 p {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.funciones {
+  padding: 20px;
+}
+.funciones p {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-align: left;
+}
+
+.sec3 {
+  background-color: #FFFFFF;
+  padding-bottom: 50px;
+}
+.sec3 h3 {
+  font-family: "Rubik", sans-serif;
+  color: #1a4c7e;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.sec3 h4 {
+  font-family: "Rubik", sans-serif;
+  color: #1a4c7e;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.sec3 p {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.sec4 {
+  background-color: #1a4c7e;
+  padding: 20px;
+}
+.sec4 h2 {
+  font-family: "Rubik", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.sec4 p {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.sec4 h4 {
+  font-family: "Rubik", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.card-index-sec4 {
+  background-color: #1a4c7e;
+  border: #1a4c7e;
+}
+
+.deficiencias a {
+  font-family: "Rubik", sans-serif;
+}
+
+.sec4 .card {
+  border-color: #1a4c7e;
+}
+
+.sec4 .card-header {
+  background-color: #1a4c7e;
+  text-align: center;
+  color: #FFFFFF;
+}
+.sec4 .card-header .btn {
+  background-color: #1a4c7e;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  transition: 0.7s;
+  border-radius: 50px;
+}
+
+.sec4 .btn:hover {
+  background-color: #FFFFFF;
+  color: #6e79ac;
+  border-color: #1a4c7e;
+  transform: scale(0.9);
+  border-radius: 20px;
+}
+
+.sec4 .card-body {
+  background-color: #1a4c7e;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.causas p {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.causas h4 {
+  font-family: "Rubik", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+.causas h5 {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+.btn-causas {
+  background-color: #1a4c7e !important;
+  color: #FFFFFF !important;
+  border: 1px solid #FFFFFF !important;
+}
+
+.btn-primary:hover {
+  background-color: #FFFFFF !important;
+  border: 1px solid #FFFFFF !important;
+  color: #6e79ac !important;
+}
+
+.indicadores {
+  margin-top: 50px;
+  border: 1px solid #1a4c7e !important;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.sec4-bis p {
+  font-family: "Montserrat", sans-serif;
+  color: #1a4c7e;
+  text-align: center;
+}
+
+.sec4-bis h3 {
+  font-family: "Rubik", sans-serif;
+  color: #1a4c7e;
+  text-align: center;
+}
+
+.sec5 {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+.sec5 h2 {
+  font-family: "Rubik", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.sec5 p {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.card-index-sec5 {
+  background-color: #FFFFFF;
+  border: #FFFFFF;
+}
+
+.sec5-bis {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+.sec5-bis h3 {
+  font-family: "Rubik", sans-serif;
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.sec5-bis h4 {
+  font-family: "Rubik", sans-serif;
+  color: black;
+  padding-top: 50px;
+}
+
+.sec5-bis p {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.sec6 {
+  background-color: #FFFFFF;
+  background: linear-gradient(180deg, rgb(255, 254, 254) 0%, #1a4c7e 100%);
+}
+.sec6 h4 {
+  font-family: "Rubik", sans-serif;
+}
+
+.sec6 p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.pack {
+  animation: zoomIn 10s ease-in-out infinite;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+footer {
+  background-color: #1a4c7e;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+footer .redes a {
+  letter-spacing: 20px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+footer .redes a :hover {
+  color: #1a4c7e;
+}
+
+.logo-footer {
+  padding: 20px;
+}
+
+.subir {
+  width: 40px;
+  height: 40px;
+  background-color: #1a4c7e;
+  text-decoration: none;
+  color: #FFFFFF;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+.subir :hover {
+  color: #7b4d9d;
+}
+
+.cierre {
+  text-align: center;
+}/*# sourceMappingURL=estilos.css.map */
