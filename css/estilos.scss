@@ -143,6 +143,10 @@ $size4: 50px;
     }
 }
 
+.sec2A{
+padding: $size3;
+}
+
 .funciones{
     padding: $size3;
     p{
@@ -422,7 +426,7 @@ footer{
     text-decoration: none;
     color: $color7;
         :hover{
-            color: $color1;
+            color: $color2;
         }
     }
 }

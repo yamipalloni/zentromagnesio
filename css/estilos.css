@@ -90,6 +90,10 @@
   text-align: center;
 }
 
+.sec2A {
+  padding: 20px;
+}
+
 .funciones {
   padding: 20px;
 }
@@ -321,7 +325,7 @@ footer .redes a {
   color: black;
 }
 footer .redes a :hover {
-  color: #1a4c7e;
+  color: #FFFFFF;
 }
 
 .logo-footer {
